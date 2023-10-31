@@ -63,10 +63,22 @@
 .available:hover {
   border-color: #da005c;
 }
+.filter {
+  width: 15%;
+}
+.ava-fil {
+  display: flex;
+  gap: 10px;
+  width: 50%;
+}
 
 @media (min-width: 992px) {
   .available {
     margin-right: 15px;
+    width: 80%;
+  }
+  .filter {
+    width: 20%;
   }
   .input {
     margin-right: 15px;
@@ -80,12 +92,15 @@
     width: 100%;
   }
   .available {
-    width: 100%;
+    width: 80%;
     margin-top: 15px;
   }
   .filter {
-    width: 50%;
+    width: 20%;
     margin: 15px auto;
+  }
+  .ava-fil {
+    width: 100%;
   }
 }
 @media (max-width: 767px) {
@@ -96,11 +111,10 @@
     left: 7px;
   }
   .filter {
-    width: 100%;
+    width: 15%;
+    flex: 1;
   }
-}
-@media (min-width: 992px) and (max-width: 1250px) {
-  .filter {
-    width: 13%;
+  .filter span {
+    display: none;
   }
 }

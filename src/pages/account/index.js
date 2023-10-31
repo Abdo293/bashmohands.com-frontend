@@ -12,6 +12,7 @@ import { Link, useRouteLoaderData } from "react-router-dom";
 import AttendeesAvatars from "../../shared/ui/loggedin/AttendeesAvatars";
 import { useState } from "react";
 import SessionDetails from "../../components/SessionDrawer";
+import { BookingReq } from "../../components/BookingReq";
 
 const { Column } = Table;
 
@@ -113,10 +114,10 @@ function UpcomingSessions({ openModal }) {
         />
         <Column title="Action" dataIndex="action" key="action" />
       </Table>
+      <BookingReq />
     </section>
   );
 }
-
 function BookmarkedConnections() {
   const users = [
     {

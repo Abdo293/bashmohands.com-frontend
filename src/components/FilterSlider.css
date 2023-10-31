@@ -124,3 +124,8 @@
   color: #fff !important;
   border: none;
 }
+@media (max-width: 767px) {
+  .filter-slider .ant-btn-primary {
+    justify-content: center;
+  }
+}

@@ -22,10 +22,16 @@ export default function SessionDetails({ isOpen, isClose }) {
     {
       label: "Date",
       children: "22-8-2023",
+      span: {
+        md: 3,
+      },
     },
     {
       label: "Notes",
       span: {
+        sm: 3,
+        md: 3,
+        lg: 3,
         xl: 3,
         xxl: 3,
       },
@@ -36,11 +42,11 @@ export default function SessionDetails({ isOpen, isClose }) {
       label: "Link",
       span: {
         xs: 1,
-        sm: 2,
+        sm: 3,
         md: 3,
         lg: 3,
-        xl: 2,
-        xxl: 2,
+        xl: 3,
+        xxl: 3,
       },
       children: "http://localhost:3000/omarabdo/account",
     },

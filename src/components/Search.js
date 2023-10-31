@@ -99,12 +99,14 @@ const Search = () => {
         />
         <img src="imgs/2.svg" alt="icon" className="search-icon" />
       </div>
-      <div className="available">
-        <h5>Show only available instructors</h5>
-        <Switch onChange={handleShowInstructorsBtn} />
-      </div>
-      <div className="filter">
-        <Filter />
+      <div className="ava-fil">
+        <div className="available">
+          <h5>Show only available instructors</h5>
+          <Switch onChange={handleShowInstructorsBtn} />
+        </div>
+        <div className="filter">
+          <Filter />
+        </div>
       </div>
     </div>
   );

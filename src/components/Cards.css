@@ -4,12 +4,16 @@
   gap: 30px;
   margin-top: 80px;
 }
+.cards .ant-card-cover {
+  padding: 0 10px;
+}
 .cards img {
   height: 284px;
-  padding: 0 10px;
   max-width: 100%;
   margin: 0 auto;
   margin-top: 10px;
+  object-fit: cover;
+  border-radius: 8px !important;
   /* transition: all 0.3s ease-in-out; */
   /* border-radius: 100px !important; */
   /* -webkit-border-radius: 100px !important; */

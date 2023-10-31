@@ -46,16 +46,7 @@ export const Cards = () => {
           return (
             <Card
               hoverable
-              cover={
-                <img
-                  alt="example"
-                  src={user.photo}
-                  style={{
-                    objectFit: "cover",
-                    borderRadius: "20px",
-                  }}
-                />
-              }
+              cover={<img alt="example" src={user.photo} />}
               key={index}
             >
               <Meta title={`${user.firstName} ${user.lastName}`} />

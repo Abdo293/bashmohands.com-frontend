@@ -68,7 +68,7 @@ export function AsideCom() {
   const navigate = useNavigate();
   const { pathname } = useLocation();
   const { user } = useRouteLoaderData("root");
-  console.log("acc nav", pathname);
+  // console.log("acc nav", pathname);
   const items = [
     {
       label: "Home",
